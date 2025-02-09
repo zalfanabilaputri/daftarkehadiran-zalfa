@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF0E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card {
+    background-color: #FFF5E6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo svg {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: #FF7F50;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.logout-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7F50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s;
+}
+
+.logout-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.arrow-wrapper {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform-origin: center;
+    transition: all 0.3s;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.logout-btn:hover .arrow-wrapper {
+    right: 0;
+}

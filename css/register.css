@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDAB9; /* Warna peach */
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+h1 {
+    color: #FF8B7E;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: #FF8B7E;
+    box-shadow: 0 0 5px rgba(255, 139, 126, 0.5);
+}
+
+.register-btn {
+    display: inline-block;
+    background-color: #FFB6A3;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.register-btn:hover {
+    background-color: #FF8B7E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 139, 126, 0.3);
+}
+
+/* Opsi ke Login */
+.login-text {
+    margin-top: 1.2rem; /* Tambahkan jarak ke tombol register */
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.login-text a {
+    color: #FF8B7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media */
+.social-links {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}

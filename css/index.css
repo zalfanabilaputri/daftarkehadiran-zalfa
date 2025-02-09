@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDAB9;
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #FF8B7E;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.icon {
+    margin: 2rem 0;
+}
+
+.icon img {
+    width: 120px;  /* Mengatur ukuran gambar */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.icon img:hover {
+    transform: scale(1.05);
+}
+
+.login-btn {
+    display: inline-block;
+    background-color: #FFB6A3;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #FF8B7E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 139, 126, 0.3);
+}

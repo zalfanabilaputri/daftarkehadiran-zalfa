@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDAB9; /* Warna peach */
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Tambahkan styling untuk judul login */
+.login-title {
+    font-size: 1.8rem;
+    color: #FF8B7E;
+    margin-bottom: 1rem;
+}
+
+.user-icon {
+    margin-bottom: 1.5rem;
+}
+
+.user-icon img {
+    width: 70px; /* Ukuran ikon lebih kecil */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: #FF8B7E;
+    box-shadow: 0 0 5px rgba(255, 139, 126, 0.5);
+}
+
+.login-btn {
+    display: inline-block;
+    background-color: #FFB6A3;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+/* Tambahkan jarak antara tombol login & opsi register */
+.login-btn {
+    margin-bottom: 1rem;
+}
+
+.login-btn:hover {
+    background-color: #FF8B7E;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 139, 126, 0.3);
+}
+
+/* Opsi ke Register */
+.register-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.register-text a {
+    color: #FF8B7E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media */
+.social-links {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
